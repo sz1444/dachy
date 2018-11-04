@@ -474,10 +474,6 @@ footer .copy {
 }
 
 @media (max-width: 977px) {
-    body {
-        padding-bottom: 90px;
-    }
-
     nav li a {
         padding: 0 15px
     }
