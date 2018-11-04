@@ -7,8 +7,6 @@
 body {
     overflow-x: hidden;
     width: 100%;
-
-
 }
 
 .container {
@@ -18,9 +16,13 @@ body {
     padding: 0 20px;
 }
 
-h1 {
+.logo {
     display: inline-block;
-    padding: 26px 0;
+    width: 200px;
+}
+
+.logomobile {
+    display: none;
 }
 
 h2 {
@@ -474,15 +476,17 @@ footer .copy {
 }
 
 @media (max-width: 977px) {
+
+
     nav li a {
         padding: 0 15px
     }
 
-    h1 {
+    .logo {
         display: block;
+        width: 20%;
         text-align: center;
-        padding: 20px;
-        font-size: 50px;
+        padding: 0px;
 
     }
 
@@ -559,15 +563,30 @@ footer .copy {
 
 
 @media (max-width: 800px) {
-    .header li {
-        padding: 6px;
-        ;
-
+    body {
+        margin-top: -50px;
     }
 
-    .header li span {
+    .logo {
+        position: fixed;
+        top: 0;
         display: none;
+
     }
+
+    .logomobile {
+        display: block;
+        position: fixed;
+        z-index: 4;
+        width: 115px;
+        top: 0px;
+    }
+
+    .header {
+        display: none;
+
+    }
+
 
     body {
         padding-top: 40px;
@@ -637,7 +656,7 @@ footer .copy {
         border-right: 0;
     }
 
-    h1 {
+    .logo {
         padding: 30px 0;
     }
 
