@@ -7,11 +7,11 @@ var bars = document.querySelector('.fa-bars');
 var times = document.querySelector('.fa-times');
 var menu = document.querySelector('nav ul');
 
-
-
+if(innerWidth<801){
 bars.addEventListener('click', menuOpen);
 times.addEventListener('click', menuClose);
-
+menu.addEventListener('click', menuClose);
+}
 function menuOpen() {
     menu.style.top = '0';
     bars.style.display = 'none';
@@ -43,3 +43,5 @@ function showImg() {
         show.style.opacity = "0";
     }
 }
+
+
