@@ -154,7 +154,7 @@ nav li a:hover {
     background-size: 100%;
     background-position: center;
     width: 100%;
-    height: 500px;
+    min-height: 600px;
     position: relative;
     z-index: 1;
 }
@@ -178,7 +178,7 @@ nav li a:hover {
 
 .box-home p {
     max-width: 700px;
-    font-size: 1.3em;
+    font-size: 1em;
     line-height: 30px;
     margin: 20px 0;
     letter-spacing: 1px;
@@ -187,7 +187,7 @@ nav li a:hover {
 
 
 .box-home .header-home {
-    font-size: 3.5em;
+    font-size: 3em;
     line-height: 1em;
     color: #ff7600;
     font-weight: 400;
