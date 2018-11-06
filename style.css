@@ -4,8 +4,8 @@
     font-family: sans-serif;
 }
 
-html{
-     scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -107,7 +107,8 @@ nav {
 
 }
 
-nav .fas {
+nav .fa-times,
+nav .fa-bars {
     display: none;
     transition-duration: 3s;
 }
@@ -480,22 +481,24 @@ footer .copy {
 }
 
 
-.up{
+.up {
     position: fixed;
     z-index: 5;
     right: 20px;
     bottom: 20px;
-    font-size: 42px;
+    font-size: 22px;
     background-color: #002262;
     width: 60px;
     line-height: 60px;
     box-shadow: 0 0 5px #000;
+    border-radius: 100%;
     height: 60px;
     text-align: center;
-    border-radius: 5px;
-    color:#fff;
-    
+
+    color: #fff;
+
 }
+
 @media (max-width: 977px) {
 
 
@@ -525,7 +528,7 @@ footer .copy {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
 
     .customer .icon-box ul,
     .contact ul,
@@ -542,9 +545,7 @@ footer .copy {
 
     }
 
-    .contact li {
-        margin-bottom: 20px;
-    }
+
 
     .content {
         min-width: 100%;
@@ -578,6 +579,18 @@ footer .copy {
     .icon .icon-box li:last-child {
         margin: 20px auto;
     }
+
+    .icon-box li {
+        width: 50%;
+        padding: 50px 0;
+    }
+
+    .icon-box li {
+        width: 50%;
+        padding: 50px px;
+        ;
+    }
+
 }
 
 
